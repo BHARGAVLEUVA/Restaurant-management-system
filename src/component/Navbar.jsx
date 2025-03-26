@@ -250,7 +250,7 @@ const Waiter = [
   {name : "UserBill",path :"/User/Bill"},
   {name : "UserMenu",path :"/User/Menu"},
   {name : "ChefLogin",path :"/Chef/Login"},
-  {name : "ChefOrder",path : "/Chef/Login"},
+  {name : "ChefOrder",path : "/Chef/Orders"},
   {name : "AdminLogin",path :"/Admin/Login"},
   {name : "AdminMenu",path :"/Admin/Menu"},
   {name : "AdminUserRegistration",path :"/Admin/UserRegistration"}

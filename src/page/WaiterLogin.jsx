@@ -1,13 +1,20 @@
 import React, { useState } from "react";
 import "./WaiterLogin.css";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const WaiterLogin = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Login attempt with:", email, password);
+    if (email === 'bhargav99@gmail.com' && password === '160204'){
+      navigate("/Waiter/Menu")
+    }else{
+      Alert("Invalide email")
+    }
   };
   
 

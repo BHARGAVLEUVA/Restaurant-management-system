@@ -4,6 +4,7 @@ body {
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;
+    
   }
   
   .App {
@@ -12,21 +13,24 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #f9f9f9;
+    
   }
   
   .order-screen {
-    background-color: white;
+    background-color: rgb(245, 167, 83);
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    width: 80%;
-    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+    width: 1500px;
+    max-width: 2000px;
+    
   }
   
   .order-items {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    
   }
   
   .order-item {
@@ -37,6 +41,7 @@ body {
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 10px;
+    
   }
   
   .order-item h3 {

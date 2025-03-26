@@ -50,7 +50,7 @@ const WaiterOrders = () => {
       
       <div className="order-items">
         {order.length === 0 ? (
-          <p>No items in the order</p>
+          <p>Your order submited</p>
         ) : (
           order.map(item => (
             <OrderItem

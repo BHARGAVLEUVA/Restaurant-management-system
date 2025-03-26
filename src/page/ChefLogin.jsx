@@ -1,13 +1,22 @@
 import React, { useState } from "react";
 import "./WaiterLogin.css";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const ChefLogin = () => {
   const [Username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
+ 
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Login attempt with:", email, password);
+    console.log("Login attempt with:", Username, password);
+    if ( Username === 'bhargav' && password === '160204'){
+      navigate("/Chef/Orders")
+    }else{
+      Alert("Invalide email")
+    }
+ 
   };
   
 

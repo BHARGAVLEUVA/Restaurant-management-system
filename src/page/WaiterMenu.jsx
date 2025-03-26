@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import MenuItem from './MenuItem';
 import './WaiterMenu.css';
+
 const WaiterMenu = () => {
   // Sample data for menu items
   const menuItems = [
